@@ -1,147 +1,177 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Peter Zogas</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
-
-    <style>
-        body {
-            background-color: #f8f9fa;
-            color: #343a40;
-            font-family: 'Montserrat', sans-serif;
-        }
-
-        .navbar {
-            background-color: #3c4f64;
-        }
-
-        .navbar-dark .navbar-toggler-icon {
-            background-color: #fff;
-        }
-
-        .hero {
-            background-color: #ffffff;
-            border-radius: 20px;
-            padding: 40px;
-        }
-
-        #about,
-        #portfolio,
-        #contact {
-            background-color: #f8f9fa;
-            border-radius: 20px;
-            padding: 40px;
-            margin-top: 20px;
-        }
-
-        /* Sidebar styling */
-        #sidebar {
-            background-color: #007bff;
-            padding: 15px;
-            color: #fff;
-        }
-
-        #sidebar a {
-            color: #fff;
-        }
-
-        #sidebar a:hover {
-            color: #f8f9fa;
-        }
-
-        /* Main content styling */
-        main {
-            border-radius: 20px;
-            background-color: #fff;
-            margin-top: 20px;
-            padding: 20px;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <title>Peter Zogas</title>
+  <link href="CSS/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap|Raleway:Raleway:wght@300;400;500&family=Work+Sans:wght@700;800&display=swap|Alfa Slab One" rel="stylesheet">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
+
 <body>
+  <div class="page-container">
 
-<!-- Navigation Bar -->
-<nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand" href="#">Peter Zogas</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
+    <header>
+      <div class="social-links">
+        <a href="mailto:hello@peterzogas.com">
+          <svg class="social-icon" width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M40 191.663V444H472V193.309L282.05 341.231C267.623 352.466 247.414 352.487 232.963 341.282L40 191.663ZM439.397 168H74.7605L257.473 309.672L439.397 168ZM0 148C0 136.954 8.95431 128 20 128H492C503.046 128 512 136.954 512 148V464C512 475.046 503.046 484 492 484H20C8.95431 484 0 475.046 0 464V148Z"/>
+          </svg></a>
+        <a href="https://www.linkedin.com/in/peterzogas/" target="_blank">
+          <svg class="social-icon" width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M93.8667 145.067C122.144 145.067 145.067 122.144 145.067 93.8667C145.067 65.5897 122.144 42.6667 93.8667 42.6667C65.5897 42.6667 42.6667 65.5897 42.6667 93.8667C42.6667 122.144 65.5897 145.067 93.8667 145.067Z"/>
+            <path d="M138.779 184.589H49.8526V470.232H138.779V184.589Z"/>
+            <path d="M193.572 184.589H278.905V224.15C281.101 220.079 291.377 202.496 310.344 191.775C331.902 179.591 351.216 176.679 373.67 177.853C409.151 179.708 422.175 188.182 438.793 201.656C467.043 224.561 469.333 288.337 469.333 288.337V470.231H381.305V327.411C381.305 327.411 382.204 304.505 375.579 282.947C369.789 268.236 358.614 255.551 337.291 255.551C292.902 255.551 281.153 297.813 278.905 308.407V470.232H193.572V184.589Z"/>
+          </svg></a>
+          <a class="link-mini" href="./resume.html">resume</a>
+      </div>
+
+      <div class="nav-links">
+        <a class="button-resting flex-adjust" href="#services">Services</a>
+        <a class="button-resting flex-adjust" href="#past-work">Past Work</a>
+        <a class="button-resting flex-adjust" href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <div class="intro">
+      <div class="intro-text">
+        <h1>Peter Zogas</h1>
+        <h3>Content Design, Strategy, and UX Writing</h3>
+        <p>I write and edit content, develop taxonomies, and integrate meaningful process into product and design teams. I ensure that the language in digital products is serving the desired goal for businesses and their users.</p>
+        <p>I operate effective alone, and I also enjoy diving deep with product designers, engineers, and even legal, or stepping back to paint a broader narrative with executive teams.</p>
+      </div>
+
+      <div class="profile-image">
+        <img src="images/profile.png">
+      </div>
+      <div class=intro-image>
+        <svg width="86" height="48" viewBox="0 0 86 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M44.5681 46.4406C43.7778 47.2847 42.4384 47.2847 41.6481 46.4406L1.32066 3.36691C0.124448 2.08924 1.0304 0 2.78064 0L83.4356 0C85.1858 0 86.0918 2.08924 84.8956 3.36691L44.5681 46.4406Z" fill="#2B0504"/>
+        </svg>
+      </div>
+
     </div>
-</nav>
 
-<!-- Page Content -->
-<div class="container-fluid">
-    <div class="row">
-        <!-- Sidebar -->
-        <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-dark sidebar">
-            <div class="sidebar-sticky">
-                <ul class="nav flex-column">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
-        <!-- Main Content -->
-        <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
-            <!-- Hero Section with Picture -->
-            <section class="hero text-left">
-                <div class="container">
-                    <img src="/images/Hero_eg.jpg" alt="Peter" class="img-fluid rounded float-right" max width="300px" alt="Responsive image">
-                    <h1 class="mt-3">Peter Zogas</h1>
-                    <p class="lead">Content design, strategy, and UX writing</p>
-                </div>
-            </section>
+    <div id="services" class="skills">
+      <div class="skills-content">
+        <h2 class="intro-text">How I can help</h2>
+        
+        <div class="skills-1">
+          <div class="skills-icon-left">
+            <img src="images/pencil.png">
+          </div>
+          <div class="skills-description-right">
+            <h4>Content Design and UX Writing</h4>
+            <p>I design content that makes products more effective, focusing on both user success and business needs.</p>
+          </div>
+        </div>
 
-            <!-- About Section -->
-            <section id="about">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <h2>About Me</h2>
-                            <p class="lead">Write a brief description about yourself here.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+        <div class="skills-2">
+          <div class="skills-icon-left">
+            <img src="images/people-pencil.png">
+          </div>
+          <div class="skills-description-right">
+            <h4>Content Strategy for Teams</h4>
+            <p>I speed up design and development teams by implementing comprehensive strategies to scale and manage content.</p>
+          </div>
+        </div>
 
-            <!-- Portfolio Section -->
-            <section id="portfolio">
-                <div class="container">
-                    <h2>Portfolio</h2>
-                    <p>Showcase your work and projects here.</p>
-                    <!-- Add your portfolio items here -->
-                </div>
-            </section>
+        <div class="skills-3">
+          <div class="skills-icon-left">
+            <img src="images/grid.png">
+          </div>
+          <div class="skills-description-right">
+            <h4>Information Architecture and Taxonomies</h4>
+            <p>Complex products and organizations rely on many types of content and information. I map the structures so you can execute more efficiently.</p>
+          </div>
+        </div>
 
-            <!-- Contact Section -->
-            <section id="contact">
-                <div class="container">
-                    <h2>Contact</h2>
-                    <a href="https://www.linkedin.com/in/peterzogas" target="_blank">LinkedIn</a>
-                    <p>hello.peterzogas@example.com</p>
-                </div>
-            </section>
-        </main>
+        <div class="skills-4">
+          <div class="skills-icon-left">
+            <img src="images/nib.png">
+          </div>
+          <div class="skills-description-right">
+            <h4>Technical Writing and Documentation</h4>
+            <p>Great products need great documentation. I craft documentation to teach and support users and build systems to support docs over time.</p>
+          </div>
+        </div>
+
+      </div>
     </div>
-</div>
 
-<!-- Bootstrap JS and Popper.js -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+    <div id="past-work" class="projects">
+      <div class="intro-text">
+        <h2>Past Work</h2>
+        <p><a href="mailto:hello@peterzogas.com">Contact me</a> for detailed case studies</p>
+      </div>
+    <div id="projects" class="work">
+      <div class="project-card">
+          <div class="project-text">
+            <img src="images/ACC-logo.jpeg">
+            <p class="project-description">I led content strategy for the launch of Autodesk Construction Cloud, the industry-leading platform for builders.</p>
+            <p>My work included:</p>
+            <ul>
+              <li>Style guides and design system</li>
+              <li>Content design for features</li>
+              <li>Platform taxonomy and information architecture</li>
+              <li>Product support and API docs</li>
+              <li>Collaboration with Sales, Marketing, and Legal</li>
+            </ul>
+          </div>
+          <div class="project-image">
+            <img src="images/ACC-placeholder-image.png">
+          </div>
+      </div>
+
+      <div class="project-card">
+          <div class="project-text">
+            <img src="images/plangrid-logo.png">
+            <p class="project-description">I stood up content practices for PlanGrid, a leading digital blueprint collaboration tool.</p>
+            <p>My work included:</p>
+            <ul>
+              <li>Defining product style and standards</li>
+              <li>Content design and UX writing for features</li>
+              <li>Content research and testing</li>
+              <li>Product support docs</li>
+            </ul>
+          </div>
+          <div class="project-image">
+            <img src="images/plangrid-placeholder-image.png">
+          </div>
+      </div>
+
+      <div class="project-card">
+          <div class="project-text">
+            <img src="images/elevate-app-logo.png">
+            <p class="project-description">I led content for Elevate, an award-winning educational app, and Balance, a personalized meditation app.</p>
+            <p>My work included:</p>
+            <ul>
+              <li>Researching and designing educational games and meditation activities</li>
+              <li>Scaling and managing content for 30+ games</li>
+              <li>Creating systems for testing and improving content</li>
+            </ul>
+          </div>
+          <div class="project-image">
+            <img src="images/elevate-placeholder-image.png">
+          </div>
+      </div>
+      </div>
+    </div>
+
+
+    <div id="contact" class="footer">
+      <div class="footer-text">
+        <h2>Get in touch</h2>
+        <a class="button-resting flex-adjust" href="mailto:hello@peterzogas.com">Email me</a>
+        <a class="button-resting flex-adjust" href="https://www.linkedin.com/in/peterzogas/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+
+
+  </div>
 </body>
 </html>
