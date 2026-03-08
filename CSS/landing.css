@@ -7,10 +7,10 @@
 /* Color tokens */
 :root {
   --bg:            #080e20;
-  --primary:       #e8edf5;
+  --primary:       rgba(232, 237, 245, 0.98);
   --secondary:     #6e85a8;
   --secondary-dim: rgba(110, 133, 168, 0.4);
-  --accent:        #7eb5f0;
+  --accent:        #3d9dff;
 }
 
 body {
